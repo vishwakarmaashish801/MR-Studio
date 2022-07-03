@@ -92,15 +92,27 @@ font-family: var(--font-primary);
   color: #fff;
   border: 2px solid var(--color-primary);
 }
+
+.btn-get-started:hover{
+  background-color: white;
+  color: #010a06 !important;
+}
 .container .box{
- 
-  background-repeat: no-repeat;
+background-color:rgba(107, 98, 158, 0.521);
+}
+.heading{
+  color: white;
+}
+.sub-heading{
+  color:white;
+  text-align:start;
+  font-size:20px;
 }
 
 .container >.box {
   margin-top: -4%;
   width: 95%;
-  background-color: rgb(241, 241, 232); 
+  /* background-color: rgb(241, 241, 232);  */
   border-radius: 12px;
   border: 2px solid #000;
   height: fit-content;
@@ -739,11 +751,12 @@ margin: 30px 30px;
 .container >.box {
   margin-top: -18%;
   width:auto;
-  background-color: rgb(241, 241, 232);
+  /* background-color: rgb(241, 241, 232); */
   border-radius: 12px;
   border: 2px solid #000;
   height: fit-content;
   margin: -65px 33px;
+  
 }
 
 .container .mob h2 {
