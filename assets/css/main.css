@@ -99,6 +99,7 @@ font-family: var(--font-primary);
 }
 .container .box{
 background-color:rgba(107, 98, 158, 0.521);
+box-shadow: 5px 5px #574d40;
 }
 .heading{
   color: white;
@@ -252,7 +253,7 @@ gap: 20px;
   font-weight: 900;
  
 }
-
+/* card layout */
 .about{
   margin-top: 20px;
   width: 300px;
@@ -262,11 +263,14 @@ gap: 20px;
   border-radius: 12px;
 margin: 30px 30px;
   border: 1px solid black;
+
 }
 .about:hover{
   rotate: 250deg;
   cursor: pointer;
   background-color: #000;
+  box-shadow: 10px 10px rebeccapurple;
+
 }
 
 .about img {
