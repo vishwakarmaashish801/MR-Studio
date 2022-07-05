@@ -763,7 +763,7 @@ margin: 30px 30px;
   border-radius: 12px;
   border: 2px solid #000;
   height: fit-content;
-  margin: -65px 33px;
+  margin: 50px 33px;
   
 }
 
@@ -785,7 +785,7 @@ text-align:start;
 
 
 .container .mob h2 {
-  margin-top: 100px;
+  margin-top:40px;
   margin-left: 0;
   color: rgba(27, 19, 19, 0.8);
   font-size: 40px;
