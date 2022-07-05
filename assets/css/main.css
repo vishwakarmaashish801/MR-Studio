@@ -97,18 +97,6 @@ font-family: var(--font-primary);
   background-color: white;
   color: #010a06 !important;
 }
-.container .box{
-background-color:rgba(107, 98, 158, 0.521);
-box-shadow: 5px 5px #574d40;
-}
-.heading{
-  color: white;
-}
-.sub-heading{
-  color:white;
-  text-align:start;
-  font-size:20px;
-}
 
 .container >.box {
   margin-top: -4%;
@@ -119,9 +107,24 @@ box-shadow: 5px 5px #574d40;
   height: fit-content;
   margin-left: 15px;
 
-  
-  
 }
+.container .box{
+background-color:rgba(107, 98, 158, 0.521);
+box-shadow: 5px 5px #574d40;
+}
+.heading{
+  color: white;
+  font-size:20px;
+  font-weight: 900;
+
+}
+.sub-heading{
+  color:white;
+  text-align:center;
+  font-size:20px;
+}
+
+
 .card-container{
   display: flex;
     flex-wrap: nowrap;
@@ -137,6 +140,10 @@ box-shadow: 5px 5px #574d40;
   
 .card1{
   width: 315px;
+}
+
+.card1 .title{
+  display:visible;
 }
  
 /*--------------------------------------------------------------
@@ -747,10 +754,7 @@ margin: 30px 30px;
   /* font-size: 18px; */
 }
 
-.card-inner {
-  width:56px;
-  display: flex;
-}
+/* === Stipper  */
 
 .container >.box {
   margin-top: -18%;
@@ -762,6 +766,23 @@ margin: 30px 30px;
   margin: -65px 33px;
   
 }
+
+.card1 {
+  width: 170px;
+}
+
+.heading {
+  /* color: white; */
+text-align:start;
+
+}
+
+
+.card-inner {
+  width:48px;
+  display: flex;
+}
+
 
 .container .mob h2 {
   margin-top: 100px;
@@ -783,6 +804,7 @@ margin: 30px 30px;
 
 }
 
+/* ========  Screen Media  display 475 */
 .get-started .php-email-form h3 {
   font-size: 14px;
   font-weight: 700;
