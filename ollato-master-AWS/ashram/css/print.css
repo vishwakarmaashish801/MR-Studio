@@ -1,0 +1,98 @@
+/* Styles go here */
+button{
+        z-index: 1;
+}
+
+.btn-pdf {
+    position: fixed;
+
+}
+
+.btn-home {
+    position: fixed;
+    margin-left:170px;
+
+}
+
+
+.sub-title{
+    position: absolute;
+    margin: -19px 0px;
+   }
+
+.page-header, .page-header-space {
+    height: 68px;
+   
+  }
+  
+  .page-footer, .page-footer-space {
+    height:90px;
+  
+  
+  }
+  
+  .page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* border-top: 1px solid black; for demo 
+    border-bottom: 1px solid black; /* for demo 
+    background: none; /* for demo */
+    display: none;
+  }
+ 
+  .page-header {
+    position: fixed;
+    top: 1mm;
+    width:100%;
+   
+    display: none;
+  
+   
+  }
+  
+  .page-body{
+    
+  }
+
+
+  .page {
+    page-break-after: always;
+    word-wrap: break-word;
+  }
+
+  
+  
+  @page { margin: 20mm; }
+
+
+  
+  @media print {
+      
+      body {margin: 0; font-family: "Times New Roman";font-size:14px;}
+      
+      .lobo-company{width:400px;}
+      
+       .img-domain{margin-left:100px;}
+       
+      .page-body{margin-top:60px;}
+       
+       .indicator{margin-left:500px;}
+       
+       .graph-container {margin-top:200px;}
+       
+       button {display: none;}
+
+     .page-header {display: block;}
+
+     .page-footer {display: block;}
+     
+     /*.table-print {background:red;font-size:52px;color:white;}*/
+     
+     .table-print .sn {width:100px;text-align:center;padding: 0.5rem;}
+     .table-print .domain {width:300px;text-align:center;padding: 0.5rem;}
+     .table-print .score {width:100px;text-align:center;padding: 0.5rem;}
+
+    
+  
+  }

@@ -1,0 +1,37 @@
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
+
+Redirect 303 /index.php
+# ErrorDocument 404 "<H1>Ashish Page not found </H1>  <button> HOME </button>"
+# ErrorDocument 404 /404.html
+
+# RewriteRule ^index$ index.php [NC]
+# RewriteRule ^dashboard$ dashboard.php [NC]
+# RewriteRule ^instruction$ instruction.php [NC]
+# RewriteRule ^assestment$ assestment.php [NC]
+# RewriteRule ^logout$ logout.php [NC]
+# RewriteRule ^register$ register.php [NC]
+# RewriteRule ^student$ student.php [NC]
+
+
+
+
+# RewriteEngine On
+# RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+# RewriteBase /
+# RewriteRule ^index\.php$ - [L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule . /index.php [L]
+
+
+# # END WordPress
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

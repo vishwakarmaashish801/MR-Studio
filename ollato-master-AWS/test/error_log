@@ -1,0 +1,18 @@
+[23-Apr-2023 19:21:33 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: ../trys.env does not exist in /home/easiness/public_html/test/vendor/devcoder-xyz/php-dotenv/src/DotEnv.php:32
+Stack trace:
+#0 /home/easiness/public_html/test/config.php(11): DevCoder\DotEnv->__construct('../trys.env')
+#1 /home/easiness/public_html/test/login.php(5): include('/home/easiness/...')
+#2 {main}
+  thrown in /home/easiness/public_html/test/vendor/devcoder-xyz/php-dotenv/src/DotEnv.php on line 32
+[23-Apr-2023 19:21:48 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: ../trys.env does not exist in /home/easiness/public_html/test/vendor/devcoder-xyz/php-dotenv/src/DotEnv.php:32
+Stack trace:
+#0 /home/easiness/public_html/test/config.php(11): DevCoder\DotEnv->__construct('../trys.env')
+#1 /home/easiness/public_html/test/login.php(5): include('/home/easiness/...')
+#2 {main}
+  thrown in /home/easiness/public_html/test/vendor/devcoder-xyz/php-dotenv/src/DotEnv.php on line 32
+[23-Apr-2023 19:21:49 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: ../trys.env does not exist in /home/easiness/public_html/test/vendor/devcoder-xyz/php-dotenv/src/DotEnv.php:32
+Stack trace:
+#0 /home/easiness/public_html/test/config.php(11): DevCoder\DotEnv->__construct('../trys.env')
+#1 /home/easiness/public_html/test/login.php(5): include('/home/easiness/...')
+#2 {main}
+  thrown in /home/easiness/public_html/test/vendor/devcoder-xyz/php-dotenv/src/DotEnv.php on line 32

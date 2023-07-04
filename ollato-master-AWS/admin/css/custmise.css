@@ -1,0 +1,17 @@
+
+
+.sidebar {
+  width: 6.5rem;
+  min-height: 100vh;
+   position: sticky;
+    top: 0rem;
+    z-index: 1000;
+    height: calc(100vh);
+}
+
+
+.sidebar-brand-icon img{
+    width:80px;
+    height:80px;
+    padding:12px;
+}

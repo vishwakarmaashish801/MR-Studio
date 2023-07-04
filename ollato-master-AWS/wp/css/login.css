@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: auto;
+    background-image: url(https://www.ollato.com/wp-content/uploads/2023/02/Ollato-Logo-watermark-1-1.png);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: contain;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .form-label {
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+  }
+  /* register css start */
+  .form-container {
+    justify-content: center;
+  }
+  .btn {
+    background-color: #2170ac;
+    border-color: #2170ac;
+    border: 2px solid #2170ac;
+    padding: 7px 60px;
+    color: #fff;
+  }
+  
+  label {
+    display: inline-block;
+    font-size: 20px;
+    color: #2170ac;
+  }
+  /*.company-detail{*/
+  /*  margin-right: 50px;*/
+  /*}*/
+  .footer-text{
+    font-size: 20px;
+  }
+  .desktop-img{
+    display: none;
+  }
+
+  /* media query */
+  @media only screen and (max-width: 600px) {
+
+    .index-log{
+          margin-top: -65px;
+    }
+    .logo-text{
+      display: none;
+    }
+    .img{
+      display: none;
+    }
+    .company-detail{
+      margin-right: 0px;
+    }
+
+    .text-end {
+      text-align: center !important;
+    }
+    p-5{
+      padding:1px 0 1px  !important;
+    }
+    
+    .btn {
+      background-color: #2170AC;
+      padding: 10px 40px;
+      color: #fff;
+  }
+  .p-5 {
+    padding: 3rem 0px!important;
+}
+  .mob{
+     display: none;
+  }
+  
+   
+  }
+  

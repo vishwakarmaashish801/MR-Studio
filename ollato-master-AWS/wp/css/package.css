@@ -1,0 +1,46 @@
+
+  /*general  instruction single page*/
+.headers-title{font-weight: 700;
+ color: #4e73df;
+ font-size:25px;
+}
+
+  
+ 
+  .btn {
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0.5em 1em;
+   
+    cursor: pointer;
+    position: relative;
+    background-color: #0f62ac;
+    color: #fff;
+    
+    text-transform: uppercase;
+    font-size:12px;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  .btn a {
+    color: #fff;
+  }
+  .btn:hover {
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  
+ 
+@media only screen and (max-width: 600px) {
+	
+
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+   
+   
+  }
+  

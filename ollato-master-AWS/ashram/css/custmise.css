@@ -1,0 +1,10 @@
+
+
+.sidebar {
+  width: 6.5rem;
+  min-height: 100vh;
+   position: sticky;
+    top: 0rem;
+    z-index: 1000;
+    height: calc(100vh);
+}
