@@ -1,0 +1,1 @@
+[17-Apr-2023 18:22:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/easiness/public_html/ashram/action/login.php on line 15
